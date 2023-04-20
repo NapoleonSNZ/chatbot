@@ -1,0 +1,13 @@
+
+
+         ::IMPLEMENTACION DE OpenAI EN LARAVEL (chatbot)::
+
+    * composer create-project laravel/laravel chatbot
+
+inslatamos paquete de OpenAI en PHP
+    * composer require openai-php/laravel
+publicamo el vendor
+    * php artisan vendor:publish --provider="OpenAI\Laravel\ServiceProvider"
+
+
+
