@@ -9,5 +9,7 @@ inslatamos paquete de OpenAI en PHP
 publicamo el vendor
     * php artisan vendor:publish --provider="OpenAI\Laravel\ServiceProvider"
 
-
+Crear la secret Key de chatGPT API
+	code al final del archivo .env 
+    * OPENAI_API_KEY = "dfshtrsgt5y7567trututujejeplo"
 
